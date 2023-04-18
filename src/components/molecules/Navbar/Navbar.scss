@@ -1,0 +1,48 @@
+@import './../../../styles/variables.scss';
+
+*
+{
+    font-family: $font;
+}
+
+.navbarImg
+{
+    margin: 0 10px 0 0;
+}
+
+.dropdown-menu
+{
+    background-color: #212529 !important;
+    .dropdown-item
+    {
+        color: rgb(255, 255, 255, 0.55);
+        &:hover
+        {
+            background-color: #363a3f;
+            color: white;
+        }
+    }
+}
+
+.headerLink
+{
+    color: rgb(255, 255, 255, 0.55);
+    text-decoration: none;
+    margin: 0 25px 0 10px;
+    &:hover
+    {
+        color: white;
+    }
+}
+
+.brandLink
+{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 25px 0 0;
+    &:hover
+    {
+        color: white;
+    }
+}
